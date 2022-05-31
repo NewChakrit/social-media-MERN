@@ -9,7 +9,7 @@ import ShareModal from "../shareModal/ShareModal";
 
 const RightSide = () => {
   const [modalOpened, setModalOpened] = useState(false);
-
+  console.log(modalOpened);
   return (
     <div className="rightSide">
       <div className="navIcons">
